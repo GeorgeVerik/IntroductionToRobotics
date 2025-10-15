@@ -1,0 +1,55 @@
+# 🤖 Introduction to Robotics – Homework #1
+
+**Author:** 🔧 Your Name  
+**University:** University of Bucharest – Faculty of Mathematics and Computer Science  
+**Course:** Introduction to Robotics (2025–2026)  
+**Professor:** Andrei Dumitriu  
+**Deadline:** October 24–30, 2025  
+
+---
+
+## 🧩 Task Description
+
+This homework focuses on **controlling an RGB LED using three potentiometers**, one for each color channel (Red, Green, and Blue).  
+The purpose of this exercise is to practice reading analog inputs and controlling PWM outputs using an Arduino board.
+
+### 🧠 Requirements (rephrased for documentation)
+
+1. Build a circuit using:
+   - 1 × RGB LED  
+   - 3 × Potentiometers (one for each color channel)  
+   - Resistors & wires as needed  
+   - Arduino board  
+
+2. Each potentiometer controls the brightness of one LED color channel:
+   - Potentiometer 1 → Red  
+   - Potentiometer 2 → Green  
+   - Potentiometer 3 → Blue  
+
+3. Use `analogRead()` to read the potentiometer values and `analogWrite()` to output mapped values to the LED pins.  
+   - Use the `map()` function to scale the input range (0–1023) to output range (0–255).  
+   - Avoid using “magic numbers” (define constants instead).  
+   - Keep code well-formatted and clean according to the coding style guide.
+
+---
+
+## ⚙️ Components Used
+
+| Component | Quantity | Description |
+|------------|-----------|-------------|
+| Arduino UNO | 1 | Main controller board |
+| RGB LED | 1 | Common cathode or anode (specify type) |
+| Potentiometer | 3 | Controls R, G, B channels |
+| Resistors | 🔧 e.g. 3 × 220Ω | For LED protection |
+| Jumper wires | Several | For connections |
+| Breadboard | 1 | For prototyping |
+
+---
+
+## 🔌 Circuit Diagram / Setup
+
+📸 **Picture of the setup:**  
+*(Insert your circuit photo here)*  
+Example:  
+```markdown
+![RGB LED Setup](images/setup.jpg)
