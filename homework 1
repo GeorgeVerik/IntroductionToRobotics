@@ -40,3 +40,42 @@ The goal is to understand how analog-to-digital conversion and PWM control work 
 | RGB LED Blue | D6 | PWM output |
 | GND | Common Ground | Shared between all components |
 
+CODE:
+const int POTENTIOMETER_RED_PIN   = A0;
+const int POTENTIOMETER_GREEN_PIN = A1;
+const int POTENTIOMETER_BLUE_PIN  = A2;
+
+const int LED_RED_PIN   = 3;
+const int LED_GREEN_PIN = 5;
+const int LED_BLUE_PIN  = 6;
+
+const int MAX_ANALOG_VALUE = 1023;
+const int MAX_PWM_VALUE    = 255;
+
+void setup() {
+  pinMode(POTENTIOMETER_RED_PIN, INPUT);
+  pinMode(POTENTIOMETER_GREEN_PIN, INPUT);
+  pinMode(POTENTIOMETER_BLUE_PIN, INPUT);
+
+  pinMode(LED_RED_PIN, OUTPUT);
+  pinMode(LED_GREEN_PIN, OUTPUT);
+  pinMode(LED_BLUE_PIN, OUTPUT);
+}
+
+void loop() {
+  int redInput   = analogRead(POTENTIOMETER_RED_PIN);
+  int greenInput = analogRead(POTENTIOMETER_GREEN_PIN);
+  int blueInput  = analogRead(POTENTIOMETER_BLUE_PIN);
+
+  int redPWM   = map(redInput, 0, MAX_ANALOG_VALUE, 0, MAX_PWM_VALUE);
+  int greenPWM = map(greenInput, 0, MAX_ANALOG_VALUE, 0, MAX_PWM_VALUE);
+  int bluePWM  = map(blueInput, 0, MAX_ANALOG_VALUE, 0, MAX_PWM_VALUE);
+
+  analogWrite(LED_RED_PIN, redPWM);
+  analogWrite(LED_GREEN_PIN, greenPWM);
+  analogWrite(LED_BLUE_PIN, bluePWM);
+
+  delay(10);
+}
+
+
