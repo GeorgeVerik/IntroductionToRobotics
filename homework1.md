@@ -5,17 +5,17 @@
 **Professor:** Andrei Dumitriu  
 **Deadline:** Week of October 24–30, 2025  
 
-
+---
 
 ### 🎯 Task Overview
 This project controls an RGB LED using **three potentiometers**, one for each color channel: Red, Green, and Blue.  
 Each potentiometer adjusts the brightness of its corresponding color through analog input readings and PWM output signals.
 
 The goal is to understand how analog-to-digital conversion and PWM control work together in digital electronics.
-
+---
 
 ### Youtube link : https://youtu.be/UlzIzNuqJCE?si=w-k8M7VIFlCsZf04
-
+---
 ### ⚙️ Components Used
 
 | Component | Quantity | Description |
@@ -27,7 +27,7 @@ The goal is to understand how analog-to-digital conversion and PWM control work 
 | Jumper wires | Several | For connections |
 | Breadboard | 1 | For prototyping |
 
-
+---
 
 ### 🧰 Circuit Connections
 
@@ -40,7 +40,7 @@ The goal is to understand how analog-to-digital conversion and PWM control work 
 | RGB LED Green | D5 | PWM output |
 | RGB LED Blue | D6 | PWM output |
 | GND | Common Ground | Shared between all components |
-
+---
 ### CODE WITH COMMENTS:
 
 // Define the pins connected to the potentiometers
