@@ -11,8 +11,9 @@ My name is George Verykakis iam an Erasmus student from Greece
 **Deadline:** Week of November 3 – November 9, 2025  
 
 ---
-![IMG_9088](https://github.com/user-attachments/assets/b7c221d1-cdc1-4f8f-8624-a041a0c72f5c)
-![IMG_9089](https://github.com/user-attachments/assets/8649ca16-4a9e-4a81-9e04-636350e084fa)
+<img width="1201" height="896" alt="Screenshot 2025-11-06 204517" src="https://github.com/user-attachments/assets/5460549b-ebbd-4abe-8fcd-1e5f846f8228" />
+<img width="1200" height="894" alt="Screenshot 2025-11-06 204502" src="https://github.com/user-attachments/assets/cd39b41b-7bdc-4d91-bcfd-64391d854e7a" />
+
 
 
 ---
