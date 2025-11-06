@@ -94,8 +94,7 @@ User interaction occurs via the **Serial Monitor menu**, and an optional **joyst
 ---
 
 ### 💻 Code
-File: `home_alarm_system.ino`  
-Implements modular functions for sensor readings, menu navigation, and alarm handling.
+File:
 
 ---
 
