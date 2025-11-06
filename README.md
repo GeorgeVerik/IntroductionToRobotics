@@ -94,7 +94,7 @@ User interaction occurs via the **Serial Monitor menu**, and an optional **joyst
 ---
 
 ### 💻 Code
-File: (https://github.com/GeorgeVerik/IntroductionToRobotics/tree/9f4dd884d04f2a9fff899b2aa95391b9167dc8bb/homework3)
+[File](https://github.com/GeorgeVerik/IntroductionToRobotics/tree/9f4dd884d04f2a9fff899b2aa95391b9167dc8bb/homework3)
 
 ---
 
