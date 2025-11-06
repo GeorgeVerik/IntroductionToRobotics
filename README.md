@@ -5,10 +5,15 @@ My name is George Verykakis iam an Erasmus student from Greece
 
 # 🏠 Homework #3 – Home Alarm System
 
-**Author:** [Your Name]  
+**Author:** Georgios Verykakis
 **Course:** Introduction to Robotics (2025–2026)  
 **Professor:** Andrei Dumitriu  
 **Deadline:** Week of November 3 – November 9, 2025  
+
+---
+![IMG_9088](https://github.com/user-attachments/assets/b7c221d1-cdc1-4f8f-8624-a041a0c72f5c)
+![IMG_9089](https://github.com/user-attachments/assets/8649ca16-4a9e-4a81-9e04-636350e084fa)
+
 
 ---
 
