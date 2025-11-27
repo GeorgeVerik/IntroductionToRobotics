@@ -233,5 +233,5 @@ Scores and high scores are tracked using **EEPROM**, and the game features a **m
 ---
 
 ### 🎥 Demo Video
-[YouTube Video](https://youtu.be/si9VusCJaq8)  
+[YouTube Video](https://youtube.com/shorts/xr5KAANP-Vc?feature=share)  
 
