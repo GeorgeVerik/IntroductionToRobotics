@@ -127,7 +127,7 @@ User interaction occurs via the **Serial Monitor menu**, and an optional **joyst
 
 ---
 
-![IMG_9392](https://github.com/user-attachments/assets/9444dd4f-a95d-4fbe-9ff0-d15244547f5b)
+![IMG_9392](https://github.com/user-attachments/assets/7a88845b-780a-477e-8f78-1c593d18bca1)
 
 ---
 ## 🎯 Overview
